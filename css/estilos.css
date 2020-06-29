@@ -1,0 +1,21 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'montserrat', sans-serif;
+}
+
+nav .nav-link{
+    color: #4b4b4b !important;
+
+}
+#contacto p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+form{
+    border-bottom: black;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
