@@ -1,21 +1,151 @@
-body{
-    background-color: #eeeeee;
+body{  
+     background-color: #eeeeee;
     font-family: 'montserrat', sans-serif;
+    word-spacing: 10px;
+}
+
+#titcont{
+    font-size: 55px;
+}
+
+nav{
+    padding: 20px !important;
+    padding-left: 30px !important;
+    
+}
+nav ul li{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.container{
+    padding-top: 50px;
 }
 
 nav .nav-link{
     color: #4b4b4b !important;
-
-}
-#contacto p{
+    font-weight: 400;
+    font-size: 21px;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
 }
-form{
-    border-bottom: black;
+nav .nav-link:hover{
+    color: brown !important;
 }
+
+#contacto p{
+    
+    font-weight: 500;
+    font-size: 30px;
+}
+
 .btn{
     background-color: black;
     color: white;
+}
+
+form input, form textarea{
+    border:none !important;
+    border-bottom:1px solid black !important;
+    background: #eeeeee !important;
+    color: black ;
+    padding-top:  20px;
+    padding-top: 30 px !important;
+    border-radius: 0px !important;
+}
+form textarea{
+    height: 150px !important;
+}
+
+form row{
+    padding-top: 35px !important;
+}
+#sub{
+    text-decoration: underline black !important;
+}
+
+
+#inicio{
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#inici h1{
+    font-size: 75px ;
+    font-weight: 700;
+   
+}
+
+#inici h2{
+     font-size: 75px ;
+    font-weight: 700;
+    
+}
+#inici p{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.fa-whatsapp, .fa-linkedin, .fa-github{
+    color: black !important;
+  
+    /* border-radius: 80%;
+    border-color: black; */
+    
+}
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px 0px rgba(209,209,209,0.63);
+    border-radius: 80%;
+    border-color: black;
+}
+
+
+
+#inici{
+    background-image: url('../images/Fondos-07.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 81vh;
+}
+
+.card{
+    width: 550px !important;
+    height: 400px !important;
+    }
+.icon{
+    width: 130px;
+    height: 130px;
+    background-color:#2D2D2D;
+    color: white;
+    padding:26px ;
+}
+.btn{
+    background-color: #2D2D2D;
+    color: white;
+    border-radius: 0px;
+}
+.card-title{
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2D2D2D;
+}
+.card-text{
+    font-family: 'Montserrat Light', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #616161;
+}
+
+section #exp{
+    background-color: #2D2D2D ;
+    color: white;
+    width: 100%;
+    
 }
